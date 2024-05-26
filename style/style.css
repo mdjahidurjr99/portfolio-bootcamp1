@@ -11,7 +11,7 @@
 .header-container{
     background-color: #0C0418;
     height: 100%;
-    padding: 40px 120px;
+    padding: 40px 80px;
     
     
 }
@@ -37,8 +37,11 @@
 /* banner start */
 
 .banner-title{
-    font-size: 85px;
+    font-size: 89px;
     text-transform: uppercase;
+    line-height: 100px;
+    letter-spacing: 1px;
+    margin: 50px 0;
     
 }
 .banner-description{
@@ -66,9 +69,23 @@
 }
 .check-icon{
     display: flex;
+    gap: 20px;
 }
 .banner-image{
-    height: 230px;
+    height: 330px;
     background-color: #FEFFFF;
     
+}
+.achivment{
+    display: flex;
+    justify-content: space-between;
+    gap: 140px;
+}
+
+.achivment-number{
+    font-size: 89px;
+}
+.achivment-name{
+    font-size: 30px;
+    text-transform: uppercase;
 }
