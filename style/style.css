@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Anton", sans-serif;
+    color: #FEFFFF;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.header-container{
+    background-color: #0C0418;
+    height: 100vh;
+    /* background-image: url(''); */
+    padding: 40px 120px;
+    
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    
+    font-size: 20px;
+    
+}   
+.navbar h3{
+    font-weight: normal;
+}
+
+
+.Start{
+    font-family: "Antonio", sans-serif;
+    text-decoration: underline;
+}
+
+/* nav-end */
+
+/* banner start */
+
+.banner-title{
+    font-size: 66px;
+    text-transform: uppercase;
+    
+}
+.banner-description{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.image-profile{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #FEFFFF;
+}
+.check-work{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.banner-image{
+    height: 250px;
+    
+}
