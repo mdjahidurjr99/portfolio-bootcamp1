@@ -10,9 +10,9 @@
 
 .header-container{
     background-color: #0C0418;
-    height: 100vh;
-    /* background-image: url(''); */
+    height: 100%;
     padding: 40px 120px;
+    
     
 }
 .navbar {
@@ -37,24 +37,38 @@
 /* banner start */
 
 .banner-title{
-    font-size: 66px;
+    font-size: 85px;
     text-transform: uppercase;
     
 }
 .banner-description{
     font-size: 15px;
     text-transform: uppercase;
+    margin-bottom: 17px;
 }
 .image-profile{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #FEFFFF;
+    border-bottom: 1px solid #FEFFFF;
 }
 .check-work{
+    display: flex;
+    flex-direction: column ;
+    justify-content: end;
     font-size: 20px;
     text-transform: uppercase;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    
+    
+
+}
+.check-icon{
+    display: flex;
 }
 .banner-image{
-    height: 250px;
+    height: 230px;
+    background-color: #FEFFFF;
     
 }
